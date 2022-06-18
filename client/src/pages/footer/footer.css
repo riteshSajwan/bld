@@ -1,0 +1,18 @@
+
+
+.footer .footer-bottom{
+    background: #343a60;
+    position: relative;
+    display: flex;
+    flex-direction: column;
+    color: #969292;
+    height: 60px;
+    align-items: center;
+    text-align: center;
+    justify-content: center;
+    width: 100%;
+    bottom: 0px;
+    left: 0px;
+    padding-top: 20px;  
+}
+

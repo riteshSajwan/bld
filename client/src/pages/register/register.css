@@ -1,0 +1,34 @@
+
+input[type=number]::-webkit-inner-spin-button, 
+input[type=number]::-webkit-outer-spin-button { 
+    -webkit-appearance: none;
+    -moz-appearance: none;
+    appearance: none;
+    margin: 0; 
+}
+
+.box{
+    height: calc(100vh - 50px);
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    background:linear-gradient(rgba(181, 205, 233, 0.5),rgba(207, 103, 202, 0.5)), url(https://th.bing.com/th/id/R.5ffeb9b88264485f1b265ff3c94e2dc2?rik=q1VHggJH5dpvmQ&riu=http%3a%2f%2fthewowstyle.com%2fwp-content%2fuploads%2f2015%2f01%2fnature-image.jpg&ehk=1zrBUw2Jkcik7R719ZPnOjG8MrGPNepNGF1KdErFfw4%3d&risl=&pid=ImgRaw) center  no-repeat;
+    background-size:cover;
+}
+
+.register-container label {
+    
+    padding: 0.5rem 0;
+    display: block;
+}
+
+.register-row {
+    display: flex;
+    justify-content: flex-start;
+}
+
+.input {
+    border-width: 1px;
+    line-height: normal;
+}
